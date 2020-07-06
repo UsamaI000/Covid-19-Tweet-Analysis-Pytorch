@@ -13,6 +13,8 @@ The first step is to clean up the raw text data.  In tweets,several stop words n
 
 After the conversion of words to usable representation,the next step is to feed it to a classifier. RNN and LSTM are commonly used to extract the global information fromthe data.  RCNN on the other hand, maintains the local in-formation which signifies the prominent features within thelimited  context  of  the  document. In this way, an overallresponse  can  be  pooled  at  the  end  which  can  better  helpduring the classifications. In this model, we use a recurrentarchitecture, which is a bidirectional recurrent network, tocapture the contexts. The recurrent structure can obtain allclin a forward scan of the text andcrin a backward scan of the text. After we obtain the representation of the word, we apply a linear transformation together with the tanh activation function and send the result to the next layer. Max-pooling is applied to these which extracts the dominant features which are then passed to FC layers to classify the tweets into emotion.
 
+![](images/architecture.jpeg) 
+
 ## Experiment setup
    - Batch Size: 64
    - Embedding layer size: 100
