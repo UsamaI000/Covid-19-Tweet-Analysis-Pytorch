@@ -40,13 +40,13 @@ After the conversion of words to usable representation,the next step is to feed 
   
 ## Results
 
-   #### Using Weighted Cross Entropy
+  #### Using Weighted Cross Entropy
    
    Training Loss | Validation Loss | Training Accuracy | Validation Accuracy | Training F1 Score | Validation F1 Score
    ------------ | ---------------- | ----------------  | ----------------    | ----------------  | ----------------
    0.30622      | 0.35316          | 90.2%             | 88.0%               | 0.9031            | 0.8836
    
-   #### Using Weighted Focal Loss
+  #### Using Weighted Focal Loss
    
    Training Loss | Validation Loss | Training Accuracy | Validation Accuracy | Training F1 Score | Validation F1 Score
    ------------ | ---------------- | ----------------  | ----------------    | ----------------  | ----------------
