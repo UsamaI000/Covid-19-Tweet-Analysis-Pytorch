@@ -40,6 +40,6 @@ After the conversion of words to usable representation,the next step is to feed 
   
 ## Results
 
-![](images/Metrics.png)     ![](images/train%20cm.png)  ![](images/validation%20.png) 
+![](images/Metrics.png)     ![](images/train%20cm.png)  ![](images/validation%20.png=250x250) 
   
         
