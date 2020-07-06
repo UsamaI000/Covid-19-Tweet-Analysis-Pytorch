@@ -41,17 +41,4 @@ After the conversion of words to usable representation,the next step is to feed 
   
 ## Results
 
-   | Experiments       |   Model   |   Stop Words  |          Loss          | Epochs | Train loss | Valid loss | Train Accuracy | Valid Accuracy | Train F1 | Valid F1 |
-|-------------------|:---------:|:-------------:|:----------------------:|:------:|:----------:|:----------:|:--------------:|:--------------:|:--------:|:--------:|
-|   Experiment 1    |    LSTM   |    Removed    |      Cross Entropy     |   25   |    0.411   |    0.499   |       82       |       78       |     -    |     -    |
-|                   |    RCNN   |    Removed    |      Cross Entropy     |   25   |    0.399   |    0.463   |      82.9      |       79       |     -    |     -    |
-|      Experiment 2 |    LSTM   |    Removed    |      Cross Entropy     |   55   |   0.2282   |    0.585   |       92       |      79.8      |     -    |     -    |
-|                   |           |  Not Removed  |      Cross Entropy     |   55   |   0.2782   |    0.656   |      91.2      |      74.4      |     -    |     -    |
-|                   |    RCNN   |    Removed    |      Cross Entropy     |   55   |    0.275   |    0.470   |      91.8      |      81.8      |     -    |     -    |
-|                   |           |  Not Removed  |      Cross Entropy     |   55   |    0.369   |    0.647   |      89.5      |      76.56     |     -    |     -    |
-| Experiment 3      |    RCNN   |    Removed    |       Focal Loss       |   50   |   0.0364   |   0.0438   |      85.09     |      82.6      |  0.8518  |  0.8307  |
-|      Experiment 4 |      RCNN |     Removed   |   Weighted Focal Loss  |   65   |   0.0537   |   0.0637   |      85.7      |      82.1      |   0.859  |   0.821  |
-|                   |           |               | Weighted Cross Entropy |   65   |    0.296   |    0.531   |      88.9      |      82.9      |   0.889  |   0.829  |
-|                   |           |   Not Removed |   Weighted Focal Loss  |   65   |    0.022   |    0.032   |      88.4      |       87       |  0.8895  |   0.871  |
-|                   |           |               | Weighted Cross Entropy |   65   |    0.268   |    0.390   |      89.9      |      87.9      |   0.899  |   0.879  |
-| Experiment 5      |    RCNN   |  Not Removed  |  Weghted Cross Entropy |   55   |   0.30622  |   0.3511   |      89.2      |      88.13     |   0.903  |   0.883  |
+![](images/Capture.PNG) 
