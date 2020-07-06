@@ -37,4 +37,9 @@ After the conversion of words to usable representation,the next step is to feed 
   - Experiment 3: Training model on Covid-19 UCD data using Focal Loss
   - Experiment 4: Training model on Covid-19 UCD data using Weighted Cross Entropy and Focal Loss to handle imbalance data.
   - Experiment 5: Training on Best performing model.
+  
+## Results
+
+![](images/Metrics.png)     ![](images/train%20cm.png)  ![](images/validation%20.png) 
+  
         
