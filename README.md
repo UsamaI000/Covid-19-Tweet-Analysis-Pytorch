@@ -41,7 +41,7 @@ After the conversion of words to usable representation,the next step is to feed 
 ## Results
    <p align="center"> <b>Performance Metrics</b> </p> 
 <p align="center">
-  <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/Metrics.png" width="650" title="Metrics">
+  <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/Metrics.png" width="800" title="Metrics">
 </p>
    
    <p align="center"> <b>Confusion Matrix</b> </p> 
