@@ -39,13 +39,7 @@ After the conversion of words to usable representation,the next step is to feed 
   - Experiment 5: Training on Best performing model.
   
 ## Results
-   <p align="center"> <b>Performance Metrics</b> </p> 
-<p align="center">
-  <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/Metrics.png" width="800" title="Metrics">
-</p>
-   
-   <p align="center"> <b>Confusion Matrix</b> </p> 
-<p align="center">
-   <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/validation%20cm.png" width="400" title="Validation Confusion Matrix">
-   <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/train%20cm.png" width="400" title="Training Confusion Matrix">
-</p>
+Training Loss | Validation Loss | Training Accuracy | Validation Accuracy | Training F1 Score | Validation F1 Score
+------------ | ---------------- | ----------------  | ----------------    | ----------------  | ----------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
