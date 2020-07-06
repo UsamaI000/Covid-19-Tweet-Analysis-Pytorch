@@ -22,17 +22,17 @@ After the conversion of words to usable representation,the next step is to feed 
    - Optimizer: SGD
    
 ### Experiments
-  #### - Experiment 1: Sentiment140 Dataset
+  - Experiment 1: Sentiment140 Dataset
         Performed on LSTM and RCNN
         - With stop words
         - Without stop words
 
-  #### - Experiment 2: Covid UCD Challenge
+  - Experiment 2: Covid UCD Challenge
         Performed on LSTM and RCNN
         - With stop words
         - Without stop words
         
-  #### - Experiment 3: Training model on Covid-19 UCD data using Focal Loss
-  #### - Experiment 4: Training model on Covid-19 UCD data using Weighted Cross Entropy and Focal Loss to handle imbalance data.
-  #### - Experiment 5: Training on Best performing model.
+  - Experiment 3: Training model on Covid-19 UCD data using Focal Loss
+  - Experiment 4: Training model on Covid-19 UCD data using Weighted Cross Entropy and Focal Loss to handle imbalance data.
+  - Experiment 5: Training on Best performing model.
         
