@@ -39,7 +39,15 @@ After the conversion of words to usable representation,the next step is to feed 
   - Experiment 5: Training on Best performing model.
   
 ## Results
-Training Loss | Validation Loss | Training Accuracy | Validation Accuracy | Training F1 Score | Validation F1 Score
------------- | ---------------- | ----------------  | ----------------    | ----------------  | ----------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+
+   #### Using Weighted Cross Entropy
+   
+   Training Loss | Validation Loss | Training Accuracy | Validation Accuracy | Training F1 Score | Validation F1 Score
+   ------------ | ---------------- | ----------------  | ----------------    | ----------------  | ----------------
+   0.30622      | 0.35316          | 90.2%             | 88.0%               | 0.9031            | 0.8836
+   
+   #### Using Weighted Focal Loss
+   
+   Training Loss | Validation Loss | Training Accuracy | Validation Accuracy | Training F1 Score | Validation F1 Score
+   ------------ | ---------------- | ----------------  | ----------------    | ----------------  | ----------------
+   0.0268       | 0.03331          | 87.4%             | 86.90%              | 0.8849            | 0.8796
