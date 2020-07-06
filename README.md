@@ -41,6 +41,7 @@ After the conversion of words to usable representation,the next step is to feed 
 ## Results
 
 <p align="center">
-  <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/validation%20cm.png" width="350" title="Validation">
   <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/Metrics.png" width="650" title="Metrics">
+   <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/validation%20cm.png" width="300" title="Validation Confusion Matrix">
+   <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/train%20cm.png" width="300" title="Training Confusion Matrix">
 </p>
