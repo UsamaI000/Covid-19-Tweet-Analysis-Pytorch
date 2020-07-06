@@ -39,7 +39,8 @@ After the conversion of words to usable representation,the next step is to feed 
   - Experiment 5: Training on Best performing model.
   
 ## Results
-
-![](images/Metrics.png)     ![](images/train%20cm.png)  ![](images/validation%20.png=250x250) 
-  
-        
+![](images/Metrics.png)     ![](images/train%20cm.png)  ![](images/validation%20.png=250x250)
+<p align="center">
+  <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/validation%20cm.png" width="350" title="Validation">
+  <img src="https://github.com/UsamaI000/Covid-Tweet-Analysis/blob/master/images/Metrics.png" width="350" title="Metrics">
+</p>
