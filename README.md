@@ -48,11 +48,11 @@ After the conversion of words to usable representation,the next step is to feed 
 ## Results
 
 <p align="center">
-  <img width="650" height="500" src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Capture.PNG">
+  <img width="650" height="400" src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Capture.PNG">
 </p>
 
-We tested our model on some random Covid related tweets to predict their emotions.
 
 <p align="center">
-  <img width="650" height="500" src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Example.PNG">
+  <b> We tested our model on some random Covid related tweets to predict their emotions </b>
+  <img width="650" height="400" src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Example.PNG">
 </p>
