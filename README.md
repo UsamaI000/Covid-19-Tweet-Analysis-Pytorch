@@ -12,13 +12,13 @@ We  have  used  Covid19  UCD  Challenge  dataset.   This dataset can be categori
 The first step is to clean up the raw text data.  In tweets,several stop words needs to be removed e.g.  prepositions,mentions,  hashtags,  URLs,  etc.   After a cleanup,  the dataneeds  to  be  converted  in  vector  form  to  feed  to  a  DeepNeural Network.  For the word2vec conversion, skip grammodel  is  used. This  model  learns  the  vector  representa-tion from the raw data using the similarity between severalwords  based  in  their  context. The  objective of the Skip-gram model is to learn word representations that are usefulfor predicting the nearby words in a document. Formally, given a sequence of training words/sentence, the objective of the Skip-gram model is to maximize the average log probability.
 
 <p align="center">
-  <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/w2v.png">
+  <img width="460" height="300" src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/w2v.png">
 </p>
 
 After the conversion of words to usable representation,the next step is to feed it to a classifier. RNN and LSTM are commonly used to extract the global information fromthe data.  RCNN on the other hand, maintains the local in-formation which signifies the prominent features within thelimited  context  of  the  document. In this way, an overallresponse  can  be  pooled  at  the  end  which  can  better  helpduring the classifications. In this model, we use a recurrentarchitecture, which is a bidirectional recurrent network, tocapture the contexts. The recurrent structure can obtain allclin a forward scan of the text andcrin a backward scan of the text. After we obtain the representation of the word, we apply a linear transformation together with the tanh activation function and send the result to the next layer. Max-pooling is applied to these which extracts the dominant features which are then passed to FC layers to classify the tweets into emotion.
 
 <p align="center">
-  <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/architecture.jpeg">
+  <img width="460" height="300" src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/architecture.jpeg">
 </p>
 
 ## Experiment setup
@@ -48,9 +48,9 @@ After the conversion of words to usable representation,the next step is to feed 
 ## Results
 
 <p align="center">
-  <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Capture.PNG">
+  <img width="460" height="300" src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Capture.PNG">
 </p>
 
 <p align="center">
-  <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Example.PNG">
+  <img width="460" height="300" src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Example.PNG">
 </p>
