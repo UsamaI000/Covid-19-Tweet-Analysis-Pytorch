@@ -21,10 +21,11 @@ After the conversion of words to usable representation,the next step is to feed 
   <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/architecture.jpeg">
 </p>
 
-## Experiment setup
+## Training Setup
    
    - Batch Size: 64
-   - Embedding layer size: 100
+   - Embedding layers size: 100
+   - Number of Enbedding layers: 3
    - Dropout: 0.41
    - Learning rate: 0.005
    - Loss: Weighted cross entropy and Focal loss
@@ -40,7 +41,7 @@ After the conversion of words to usable representation,the next step is to feed 
         - With stop words
         - Without stop words  
    - Experiment 3: Training model on Covid-19 UCD data using Focal Loss
-   - Experiment 4: Training model on Covid-19 UCD data using Weighted Cross Entropy and Focal Loss to handle imbalance data.
+   - Experiment 4: Training model on Covid-19 UCD data using Weighted Cross Entropy and Focal Loss to handle imbalanced data.
         - With stop words
         - Without stop words
    - Experiment 5: Training on Best performing model.
