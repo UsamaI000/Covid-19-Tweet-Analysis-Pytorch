@@ -44,3 +44,5 @@ After the conversion of words to usable representation,the next step is to feed 
 ## Results
 
 ![](images/Capture.PNG) 
+
+<p allign="center"> ![](images/Example.PNG) </p> 
