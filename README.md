@@ -5,7 +5,7 @@ Covid19, since its inception, has had a huge impact on people's life. Since diff
 In this project, sentiment analysis is done on Covid19 related tweets from different parts of the world which is essentially a test classification problem. Recurrent convolution neural network (RCNN) is employed which uses a recurrent structure to capture more contextual information. This also uses a max-pooling layer to determine which words have more weight while describing sentiment of a tweet.
 
 ## Dataset
-We  have  used  Covid19  UCD  Challenge  dataset.   Thisdataset can be categorized into 5 emotion classed namelyanaltical, fear, confident, anger and sadness.
+We  have  used  Covid19  UCD  Challenge  dataset.   This dataset can be categorized into 5 emotion classed namely analytical, fear, confident, anger and sadness.
 #### Link: https://github.com/xxz-jessica/COVID-19_UCD_Challenge
 
 ## Proposed Solution
