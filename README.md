@@ -45,4 +45,6 @@ After the conversion of words to usable representation,the next step is to feed 
 
 ![](images/Capture.PNG) 
 
-<p allign="center"> ![](images/Example.PNG) </p> 
+<p align="center">
+  <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Example.PNG">
+</p>
