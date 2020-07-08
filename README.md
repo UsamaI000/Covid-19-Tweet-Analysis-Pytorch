@@ -8,10 +8,10 @@ In this project, sentiment analysis is done on Covid19 related tweets from diffe
   - Download the files
   - Open Data preparation and make word2vec of your data and save .npz files and other necessary files for training.
   - Open Config.py and adjust it according to your setup and adjust related file paths in it.
-  - To modify training loss and optimizer open training.py and edit it.
+  - To modify training loss and optimizer open train.py and edit it.
   - To start training run train.py
   - To test your model or get predictions of unseen data run test.py and predict.py
-  - To demonstrate your model in real time you can tun tweet.py and give it a random Covid related tweet
+  - To demonstrate your model in real time you can run tweet.py and give it a random Covid related tweet
 
 ## Dataset
 
@@ -44,7 +44,7 @@ After the conversion of words to usable representation,the next step is to feed 
    
    - Batch Size: 64
    - Embedding layers size: 100
-   - Number of Enbedding layers: 3
+   - Number of Embedding layers: 3
    - Dropout: 0.41
    - Learning rate: 0.005
    - Loss: Weighted Cross Entropy and Focal loss
