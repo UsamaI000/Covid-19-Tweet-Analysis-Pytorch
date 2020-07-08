@@ -4,6 +4,15 @@
 Covid19, since its inception, has had a huge impact on people's life. Since different governments have announced lock-down to confine the people at home to mitigate the spread of disease, people have turned to social media to express their concerns and their feelings about the situation. An insight into the mindset of the people is a valuable commodity at dire times such as these. Analysis of this frail yet testing phase can give helpful and important insights in to the situation which would surely lead to better and informed decisions at higher levels to curb and contain not only the deadly disease but the rising panic and frustration. 
 In this project, sentiment analysis is done on Covid19 related tweets from different parts of the world which is essentially a test classification problem. Recurrent convolution neural network (RCNN) is employed which uses a recurrent structure to capture more contextual information. This also uses a max-pooling layer to determine which words have more weight while describing sentiment of a tweet.
 
+## Guide to use
+  - Download the files
+  - Open Data preparation and make word2vec of your data and save .npz files and other necessary files for training.
+  - Open Config.py and adjust it according to your setup and adjust related file paths in it.
+  - To modify training loss and optimizer open training.py and edit it.
+  - To start training run train.py
+  - To test your model or get predictions of unseen data run test.py and predict.py
+  - To demonstrate your model in real time you can tun tweet.py and give it a random Covid related tweet
+
 ## Dataset
 
   ### Training
@@ -38,7 +47,7 @@ After the conversion of words to usable representation,the next step is to feed 
    - Number of Enbedding layers: 3
    - Dropout: 0.41
    - Learning rate: 0.005
-   - Loss: Weighted cross entropy and Focal loss
+   - Loss: Weighted Cross Entropy and Focal loss
    - Optimizer: SGD
    
    ### Experiments
