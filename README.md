@@ -77,6 +77,16 @@ After the conversion of words to usable representation,the next step is to feed 
    ### Deaths in countries
    <b> We also performed analysis of deaths per day due to Covid-19 in different countries </b>
    
-   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Deaths_Pakistan.pdf"> </p>
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/pakistan.PNG"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/canada.PNG"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/india.PNG"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/nigeria.PNG"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/us.PNG"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/uk.PNG"> </p>
    
    
