@@ -79,13 +79,18 @@ After the conversion of words to usable representation,the next step is to feed 
    
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/pakistan.PNG"> </p>
    
+   
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/canada.PNG"> </p>
+   
    
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/india.PNG"> </p>
    
+   
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/nigeria.PNG"> </p>
    
+   
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/us.PNG"> </p>
+   
    
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/uk.PNG"> </p>
    
