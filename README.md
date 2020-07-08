@@ -9,10 +9,8 @@ In this project, sentiment analysis is done on Covid19 related tweets from diffe
   ### Training
   <p> We  have  used  Covid-19  UCD  Challenge  dataset to train our RCNN model. This dataset can be categorized into 5 emotion classed namely analytical, fear, confident, anger   and sadness. </p>
   <b> Link: https://github.com/xxz-jessica/COVID-19_UCD_Challenge </b>
-  
-  <p>
-  <p align="left"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/word_cloud_sadness.png"> </p> <p align="right"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/word_cloud_fear.png"> </p> 
-  </p>
+
+  <p align="left"> <img width=650 height= 650 src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/word_cloud_anger.png"> </p>
   
   ### Prediction
   <p> We used the trained model to predict on the unseen tweets dataset which was about 17M from which almost 1.5M tweets had information about countries. We used this 
