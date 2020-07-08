@@ -5,8 +5,15 @@ Covid19, since its inception, has had a huge impact on people's life. Since diff
 In this project, sentiment analysis is done on Covid19 related tweets from different parts of the world which is essentially a test classification problem. Recurrent convolution neural network (RCNN) is employed which uses a recurrent structure to capture more contextual information. This also uses a max-pooling layer to determine which words have more weight while describing sentiment of a tweet.
 
 ## Dataset
-We  have  used  Covid19  UCD  Challenge  dataset.   This dataset can be categorized into 5 emotion classed namely analytical, fear, confident, anger and sadness.
-#### Link: https://github.com/xxz-jessica/COVID-19_UCD_Challenge
+
+  ### Training
+  <p> We  have  used  Covid-19  UCD  Challenge  dataset to train our RCNN model. This dataset can be categorized into 5 emotion classed namely analytical, fear, confident, anger   and sadness. </p>
+  #### Link: https://github.com/xxz-jessica/COVID-19_UCD_Challenge
+  
+  ### Prediction
+  <p> We used the trained model to predict on the unseen tweets dataset which was about 17M from which almost 1.5M tweets had information about countries. We used this 
+  data to analyze people's feelings, attitude towards Covid. Also, we analyzed deaths per day in Countries and Date-wise sentiment analysis. </p>
+  #### Link: https://drive.google.com/drive/folders/1dVr4yYlptJefiooO_lyvGzyPSha44QNF?usp=sharing
 
 ## Proposed Solution
 The first step is to clean up the raw text data.  In tweets,several stop words needs to be removed e.g.  prepositions,mentions,  hashtags,  URLs,  etc.   After a cleanup,  the dataneeds  to  be  converted  in  vector  form  to  feed  to  a  DeepNeural Network.  For the word2vec conversion, skip grammodel  is  used. This  model  learns  the  vector  representa-tion from the raw data using the similarity between severalwords  based  in  their  context. The  objective of the Skip-gram model is to learn word representations that are usefulfor predicting the nearby words in a document. Formally, given a sequence of training words/sentence, the objective of the Skip-gram model is to maximize the average log probability.
