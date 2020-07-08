@@ -69,8 +69,14 @@ After the conversion of words to usable representation,the next step is to feed 
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/datewise_country_emotion_United States.png"> </p>
    
    ### Emotion in different countries
-   <b> Below is the plot that explain the emotion of people in different countries towards Covid-19. </b>
+   <b> Below is the plot that explain the emotion of people in different countries towards Covid-19. The plot shows that the most of the people in 
+       different countries were confident during this time of Global pandemic. There was an emotion of fear which kept changing during the timeline.</b>
    
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/country_emotion.png"> </p>
+   
+   ### Deaths in countries
+   <b> We also performed analysis of deaths per day due to Covid-19 in different countries </b>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Deaths_Pakistan.pdf"> </p>
    
    
