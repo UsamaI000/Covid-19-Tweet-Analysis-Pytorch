@@ -11,8 +11,7 @@ In this project, sentiment analysis is done on Covid19 related tweets from diffe
   <b> Link: https://github.com/xxz-jessica/COVID-19_UCD_Challenge </b>
   
   <p>
-  <p align="left"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/word_cloud_anger.tiff"> </p> 
-  <p align="right"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/word_cloud_fear.tiff"> </p> 
+  <p align="left"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/word_cloud_anger.png"> </p> <p align="right"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/word_cloud_fear.png"> </p> 
   </p>
   
   ### Prediction
