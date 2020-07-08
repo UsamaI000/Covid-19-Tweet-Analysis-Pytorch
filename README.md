@@ -50,3 +50,27 @@ After the conversion of words to usable representation,the next step is to feed 
 
    <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/Capture.PNG"> </p>
 
+## Analysis
+
+   ### Date wise trend
+   <b> We analyzed the predicted tweets data to get information on how people felt (anger, sadness, fear etc) in different countries during Covid-19. 
+       The tweets were gathered from Fabruary to July. Below are the figures that shows the trend. </b>
+       
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/datewise_country_emotion_Pakistan.png"> </p>    
+       
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/datewise_country_emotion_Canada.png"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/datewise_country_emotion_India.png"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/datewise_country_emotion_Nigeria.png"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/datewise_country_emotion_United Kingdom.png"> </p>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/datewise_country_emotion_United States.png"> </p>
+   
+   ### Emotion in different countries
+   <b> Below is the plot that explain the emotion of people in different countries towards Covid-19. </b>
+   
+   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/country_emotion.png"> </p>
+   
+   
