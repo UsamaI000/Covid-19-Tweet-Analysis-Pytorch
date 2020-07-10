@@ -33,7 +33,10 @@ In this project, sentiment analysis is done on Covid19 related tweets from diffe
   <p> We used the trained model to predict on the unseen tweets dataset which was about 17M from which almost 1.5M tweets had information about countries. We used this 
   data to analyze people's feelings, attitude towards Covid. Also, we analyzed deaths per day in Countries and Date-wise sentiment analysis. </p>
   <b> Link:https://drive.google.com/file/d/1-5GDZ1yZ_8h2jvWrJVtkEhXTAnOgLXT2/view </b> <br/>
-  <b> Link:https://drive.google.com/file/d/1-5arbKzj2TB2hHEjzsTrnWy3Ap2QU4Yx/view  </b>
+  <b> Link:https://drive.google.com/file/d/1-5arbKzj2TB2hHEjzsTrnWy3Ap2QU4Yx/view  </b> <br/>
+  
+  <p> The link for our predicted dataset is given below </p>
+  <b> Link: https://drive.google.com/file/d/1HLqJxzr-1oh9ror0LLFol-pIIPOXDluV/view?usp=sharing </b>
 
 ## Proposed Solution
 The first step is to clean up the raw text data.  In tweets,several stop words needs to be removed e.g.  prepositions,mentions,  hashtags,  URLs,  etc.   After a cleanup,  the dataneeds  to  be  converted  in  vector  form  to  feed  to  a  DeepNeural Network.  For the word2vec conversion, skip grammodel  is  used. This  model  learns  the  vector  representation from the raw data using the similarity between severalwords  based  in  their  context. The  objective of the Skip-gram model is to learn word representations that are usefulfor predicting the nearby words in a document. Formally, given a sequence of training words/sentence, the objective of the Skip-gram model is to maximize the average log probability.
