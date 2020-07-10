@@ -73,6 +73,11 @@ Following configurations were used for final model training.
 
 ## Analysis
 
+  ### Emotion in different countries
+  Below is the plot that explain the emotion of people in different countries towards Covid-19. The plot shows that the most of the people in different countries were confident   during this time of Global pandemic. There was an emotion of fear which kept changing during the timeline.
+
+  <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/country_emotion.png"> </p>
+
   ### Date wise trend
   We analyzed the predicted tweets data to get information on how people felt (anger, sadness, fear etc) in different countries during Covid-19. The tweets were gathered from     Fabruary to July. Below are the figures that shows the trend.
 
@@ -92,13 +97,6 @@ Following configurations were used for final model training.
 
 
   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/datewise_country_emotion_United States.png"> </p>
-
-
-  ### Emotion in different countries
-  Below is the plot that explain the emotion of people in different countries towards Covid-19. The plot shows that the most of the people in different countries were confident   during this time of Global pandemic. There was an emotion of fear which kept changing during the timeline.
-
-  <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/country_emotion.png"> </p>
-
 
   ### Deaths in countries
   We also performed analysis of deaths per day due to Corona Virus in different countries. The graphs are given to see the trend.
