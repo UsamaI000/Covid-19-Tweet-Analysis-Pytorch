@@ -32,7 +32,7 @@ In this project, sentiment analysis is done on Covid19 related tweets from diffe
   ### Prediction
   <p> We used the trained model to predict on the unseen tweets dataset which was about 17M from which almost 1.5M tweets had information about countries. We used this 
   data to analyze people's feelings, attitude towards Covid. Also, we analyzed deaths per day in Countries and Date-wise sentiment analysis. </p>
-  <b> Link:https://drive.google.com/file/d/1-5GDZ1yZ_8h2jvWrJVtkEhXTAnOgLXT2/view </b>
+  <b> Link:https://drive.google.com/file/d/1-5GDZ1yZ_8h2jvWrJVtkEhXTAnOgLXT2/view </b> <br/>
   <b> Link:https://drive.google.com/file/d/1-5arbKzj2TB2hHEjzsTrnWy3Ap2QU4Yx/view  </b>
 
 ## Proposed Solution
