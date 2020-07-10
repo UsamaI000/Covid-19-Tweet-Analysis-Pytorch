@@ -22,8 +22,8 @@ In this project, sentiment analysis is done on Covid19 related tweets from diffe
 
 ## Dataset
   <p> Collected untagged data </p>
-  <b> Link:https://drive.google.com/file/d/1-5GDZ1yZ_8h2jvWrJVtkEhXTAnOgLXT2/view </b> <br/>
-  <b> Link:https://drive.google.com/file/d/1-5arbKzj2TB2hHEjzsTrnWy3Ap2QU4Yx/view  </b> <br/>
+  <b> Link: https://drive.google.com/file/d/1-5GDZ1yZ_8h2jvWrJVtkEhXTAnOgLXT2/view </b> <br/>
+  <b> Link: https://drive.google.com/file/d/1-5arbKzj2TB2hHEjzsTrnWy3Ap2QU4Yx/view  </b> <br/>
 
   ### Training
   <p> We  have  used  Covid-19  UCD  Challenge  dataset to train our RCNN model. This dataset can be categorized into 5 emotion classes namely analytical, fear, confident, anger   and sadness. </p>
