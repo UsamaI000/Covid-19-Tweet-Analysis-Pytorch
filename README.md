@@ -24,7 +24,7 @@ In this project, sentiment analysis is done on Covid19 related tweets from diffe
 
   ### Training
   <p> We  have  used  Covid-19  UCD  Challenge  dataset to train our RCNN model. This dataset can be categorized into 5 emotion classes namely analytical, fear, confident, anger   and sadness. </p>
-  <b> Link: https://github.com/xxz-jessica/COVID-19_UCD_Challenge </b>
+  <b> Link: https://drive.google.com/file/d/1_xDpng11Fzz_sxZGYjqeU4z-kfIivYrP/view </b>
   <br/>
   <br/>
   <p align="center"> <img width=700 height= 350 src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/word_cloud_anger.png"> </p>
@@ -32,7 +32,8 @@ In this project, sentiment analysis is done on Covid19 related tweets from diffe
   ### Prediction
   <p> We used the trained model to predict on the unseen tweets dataset which was about 17M from which almost 1.5M tweets had information about countries. We used this 
   data to analyze people's feelings, attitude towards Covid. Also, we analyzed deaths per day in Countries and Date-wise sentiment analysis. </p>
-  <b> Link: https://drive.google.com/drive/folders/1dVr4yYlptJefiooO_lyvGzyPSha44QNF?usp=sharing </b>
+  <b> Link:https://drive.google.com/file/d/1-5GDZ1yZ_8h2jvWrJVtkEhXTAnOgLXT2/view </b>
+  <b> Link:https://drive.google.com/file/d/1-5arbKzj2TB2hHEjzsTrnWy3Ap2QU4Yx/view  </b>
 
 ## Proposed Solution
 The first step is to clean up the raw text data.  In tweets,several stop words needs to be removed e.g.  prepositions,mentions,  hashtags,  URLs,  etc.   After a cleanup,  the dataneeds  to  be  converted  in  vector  form  to  feed  to  a  DeepNeural Network.  For the word2vec conversion, skip grammodel  is  used. This  model  learns  the  vector  representation from the raw data using the similarity between severalwords  based  in  their  context. The  objective of the Skip-gram model is to learn word representations that are usefulfor predicting the nearby words in a document. Formally, given a sequence of training words/sentence, the objective of the Skip-gram model is to maximize the average log probability.
@@ -117,3 +118,12 @@ Following configurations were used for final model training.
   <br/>
 
   <p align="center"> <img src="https://github.com/UsamaI000/G2H_Project_DLSpring2020/blob/master/images/us.PNG"> </p>
+  
+## Reference
+
+  - RCNN model class: https://github.com/AnubhavGupta3377/Text-Classification-Models-Pytorch/tree/master/Model_RCNN
+  - Covid UCD Data: https://github.com/xxz-jessica/COVID-19_UCD_Challenge
+  - IEEE Data: 
+      - https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset
+      - https://ieee-dataport.org/open-access/coronavirus-covid-19-geo-tagged-tweets-dataset
+  - Panacea lab: https://github.com/thepanacealab/covid19_twitter
