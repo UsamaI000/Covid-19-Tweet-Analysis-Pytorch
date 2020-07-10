@@ -122,7 +122,7 @@ Following configurations were used for final model training.
 ## Reference
 
   - RCNN model class: https://github.com/AnubhavGupta3377/Text-Classification-Models-Pytorch/tree/master/Model_RCNN
-  - Covid UCD Data: https://github.com/xxz-jessica/COVID-19_UCD_Challenge
+  - For Training of model Covid UCD Data: https://github.com/xxz-jessica/COVID-19_UCD_Challenge
   - IEEE Data: 
       - https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset
       - https://ieee-dataport.org/open-access/coronavirus-covid-19-geo-tagged-tweets-dataset
